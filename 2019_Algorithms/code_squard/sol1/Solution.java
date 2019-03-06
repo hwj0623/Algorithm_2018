@@ -48,11 +48,11 @@ public class Solution {
         			if(j<arr.length && arr[i] ==arr[j])
         				continue;
         			else { //불일치 구간 나오면 탈출 
-            			list.add(arr[i]);
-            			i=j-1;	
-            			break;
+					list.add(arr[i]);
+					i=j-1;	
+					break;
+            			}
             		}
-            	}
         	}
         }
         answer = new int[list.size()];
